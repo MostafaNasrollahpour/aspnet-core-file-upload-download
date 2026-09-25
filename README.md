@@ -38,8 +38,8 @@ You should see a .NET 8 SDK and `Microsoft.NETCore.App 8.0.x` in the output.
 ## Run locally
 
 ```bash
-git clone https://github.com/MostafaNasrollahpour/Asp-.Net-core-upload-download-file.git
-cd Asp-.Net-core-upload-download-file
+git clone https://github.com/MostafaNasrollahpour/aspnet-core-file-upload-download.git
+cd aspnet-core-file-upload-download
 dotnet restore
 dotnet run --project FileUploadApi
 ```
