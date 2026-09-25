@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mostafa/C#/Test/FileUploadApi/FileUploadApi.csproj": {}
+    "/home/mostafa/Projects/Asp-.Net-core-upload-download-file/FileUploadApi/FileUploadApi.csproj": {}
   },
   "projects": {
-    "/home/mostafa/C#/Test/FileUploadApi/FileUploadApi.csproj": {
+    "/home/mostafa/Projects/Asp-.Net-core-upload-download-file/FileUploadApi/FileUploadApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mostafa/C#/Test/FileUploadApi/FileUploadApi.csproj",
+        "projectUniqueName": "/home/mostafa/Projects/Asp-.Net-core-upload-download-file/FileUploadApi/FileUploadApi.csproj",
         "projectName": "FileUploadApi",
-        "projectPath": "/home/mostafa/C#/Test/FileUploadApi/FileUploadApi.csproj",
+        "projectPath": "/home/mostafa/Projects/Asp-.Net-core-upload-download-file/FileUploadApi/FileUploadApi.csproj",
         "packagesPath": "/home/mostafa/.nuget/packages/",
-        "outputPath": "/home/mostafa/C#/Test/FileUploadApi/obj/",
+        "outputPath": "/home/mostafa/Projects/Asp-.Net-core-upload-download-file/FileUploadApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mostafa/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +38,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +55,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,28 @@
+# Build output
+**/bin/
+**/obj/
+
+# Runtime uploads
+**/uploads/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Test results and logs
+TestResults/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
